@@ -7,6 +7,7 @@ import {
   AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
+
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
@@ -19,33 +20,32 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I fell in love with programming and have been learning ever since. 
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> HTML and little bit of python </b>
+                <b className="purple"> HTML and a bit of Python. </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My areas of interest include building new &nbsp;
               <i>
-                <b className="purple">Websites</b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  AI
-                </b>
+                <b className="purple">websites</b> and exploring fields related to{" "}
+                <b className="purple">AI.</b>
               </i>
               <br />
               <br />
-              
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+              I’m currently learning <b className="purple">React.js</b> and{" "}
+              <b className="purple">Next.js</b> to improve my front-end development skills.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img
+                src={myImg}
+                className="img-fluid"
+                alt="Avatar illustration"
+              />
             </Tilt>
           </Col>
         </Row>
@@ -53,7 +53,7 @@ function Home2() {
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              Feel free to <span className="purple">connect</span> with me
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
@@ -61,7 +61,7 @@ function Home2() {
                   href="https://github.com/Darun-S"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <AiFillGithub />
                 </a>
@@ -71,7 +71,7 @@ function Home2() {
                   href="https://twitter.com"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <AiOutlineTwitter />
                 </a>
@@ -93,4 +93,5 @@ function Home2() {
     </Container>
   );
 }
+
 export default Home2;
